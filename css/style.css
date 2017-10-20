@@ -1,0 +1,219 @@
+body {
+  font-size: 0.12rem;
+  background: #EDEDED;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.45rem;
+  background: #fff;
+  text-align: center;
+  line-height: 0.45rem;
+  position: relative; }
+  .header .center {
+    font-size: 0.16rem; }
+    .header .center a:nth-child(1) {
+      padding-bottom: 0.1rem;
+      border-bottom: 2px solid #333; }
+  .header .right {
+    position: absolute;
+    top: 0;
+    right: 0.15rem; }
+    .header .right i {
+      font-size: 0.18rem;
+      color: #3c3c3c; }
+
+.section {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  .section .logo {
+    width: 100%;
+    position: relative;
+    height: 1.4rem; }
+    .section .logo img {
+      width: 100%;
+      height: 1.4rem; }
+  .section .photo {
+    height: 1rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .section .photo dl {
+      text-align: center; }
+      .section .photo dl dt {
+        width: 0.4rem;
+        height: 0.4rem;
+        text-align: center;
+        line-height: 0.4rem;
+        border-radius: 40%; }
+        .section .photo dl dt i {
+          font-size: 0.2rem;
+          color: #fff; }
+      .section .photo dl dd {
+        font-size: 0.12rem;
+        line-height: 0.3rem; }
+  .section .banner {
+    height: 0.74rem; }
+    .section .banner img {
+      width: 100%;
+      height: 100%; }
+  .section .fuwu {
+    background: #fff; }
+    .section .fuwu .title {
+      height: 0.5rem;
+      border-bottom: 1px solid #EDEDED;
+      font-size: 0.15rem;
+      color: #474747;
+      line-height: 0.5rem;
+      padding-left: 0.15rem; }
+    .section .fuwu #con .fu {
+      background: #fff;
+      text-align: center; }
+      .section .fuwu #con .fu dl {
+        background: #fff;
+        border-right: 1px solid #EDEDED;
+        border-bottom: 1px solid #EDEDED;
+        text-align: center; }
+        .section .fuwu #con .fu dl dt {
+          text-align: center; }
+          .section .fuwu #con .fu dl dt i {
+            text-align: center;
+            font-size: 0.25rem;
+            color: #fff;
+            line-height: 0.5rem; }
+        .section .fuwu #con .fu dl dd {
+          font-size: 0.13rem;
+          text-align: center;
+          line-height: 0.3rem; }
+  .section .qiang {
+    margin-top: 0.1rem;
+    background: #fff;
+    clear: both; }
+    .section .qiang .tit {
+      height: 0.5rem;
+      line-height: 0.5rem;
+      font-size: 0.15rem;
+      color: #474747;
+      position: relative; }
+      .section .qiang .tit .left {
+        position: absolute;
+        left: 0.15rem; }
+      .section .qiang .tit .right {
+        position: absolute;
+        top: 0;
+        right: 0.15rem; }
+        .section .qiang .tit .right span {
+          display: inline-block;
+          margin-top: 0.15rem;
+          width: 0.2rem;
+          height: 0.2rem;
+          background: #3c3c3c;
+          color: #fff;
+          font-size: 0.15rem;
+          text-align: center;
+          line-height: 0.2rem; }
+    .section .qiang .hua {
+      background: #fff;
+      height: 1.5rem;
+      overflow: hidden;
+      clear: both; }
+      .section .qiang .hua .con {
+        width: 200%;
+        margin-right: 0.15rem;
+        clear: both; }
+        .section .qiang .hua .con dl {
+          width: 1.3rem;
+          height: 1.3rem;
+          float: left;
+          border: 1px solid #EDEDED;
+          margin: 0 0.1rem; }
+          .section .qiang .hua .con dl dt {
+            padding: 0.05rem;
+            width: 70%;
+            height: auto;
+            margin-left: 15%;
+            margin-top: 0.2rem; }
+            .section .qiang .hua .con dl dt img {
+              width: 100%;
+              height: 100%;
+              border-radius: 10px; }
+          .section .qiang .hua .con dl dd {
+            margin-top: 0.1rem;
+            text-align: center; }
+            .section .qiang .hua .con dl dd h3 {
+              font-size: 0.14rem; }
+            .section .qiang .hua .con dl dd .money {
+              color: #FB5401;
+              font-size: 0.11rem; }
+              .section .qiang .hua .con dl dd .money span {
+                display: inline-block;
+                color: #ccc;
+                font-size: 0.08rem;
+                text-decoration: line-through; }
+        .section .qiang .hua .con dl:nth-child(1) {
+          margin-left: 0.1rem; }
+  .section .like {
+    height: auto;
+    background: #fff;
+    clear: both;
+    margin-top: 20px; }
+    .section .like .to {
+      height: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0.15rem;
+      font-size: 0.15rem; }
+    .section .like .txt {
+      background: #fff; }
+      .section .like .txt dl {
+        background: #fff;
+        border-right: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee; }
+        .section .like .txt dl dt {
+          width: 100%;
+          height: 1.8rem; }
+          .section .like .txt dl dt img {
+            width: 100%;
+            height: 100%; }
+        .section .like .txt dl dd h2 {
+          font-size: 0.14rem;
+          font-weight: bold;
+          line-height: 0.25rem; }
+        .section .like .txt dl dd p {
+          font-size: 0.1rem;
+          color: #B6B6B6;
+          line-height: 0.2rem; }
+        .section .like .txt dl dd .money {
+          color: #FB5401;
+          font-size: 0.15rem;
+          line-height: 0.5rem; }
+          .section .like .txt dl dd .money span {
+            display: inline-block;
+            color: #ccc;
+            font-size: 0.08rem;
+            text-decoration: line-through;
+            margin-left: 0.1rem; }
+
+.footer {
+  height: 0.45rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer dl {
+    text-align: center;
+    color: #474747; }
+    .footer dl dt i {
+      font-size: 0.2rem; }
+    .footer dl dd {
+      font-size: 0.1rem; }
+  .footer .cll {
+    color: #4183FF; }
+
+/*# sourceMappingURL=style.css.map */
